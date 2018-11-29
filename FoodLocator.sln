@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodLocator", "FoodLocator\FoodLocator.csproj", "{08BB786C-4A53-4BA5-94CB-0EE80FEC5283}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08BB786C-4A53-4BA5-94CB-0EE80FEC5283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BB786C-4A53-4BA5-94CB-0EE80FEC5283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BB786C-4A53-4BA5-94CB-0EE80FEC5283}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{08BB786C-4A53-4BA5-94CB-0EE80FEC5283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BB786C-4A53-4BA5-94CB-0EE80FEC5283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08BB786C-4A53-4BA5-94CB-0EE80FEC5283}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77B38A0F-6726-4449-B042-3A95D5899676}
+	EndGlobalSection
+EndGlobal
