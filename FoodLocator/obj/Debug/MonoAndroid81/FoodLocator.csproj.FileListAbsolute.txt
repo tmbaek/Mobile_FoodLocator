@@ -65,4 +65,6 @@ C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLoc
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\System.Runtime.Serialization.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\System.ServiceModel.Internals.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\System.Xml.pdb
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\res\drawable\home_img.jpg
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\res\layout\layout1.xml
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\linksrc\FoodLocator.pdb

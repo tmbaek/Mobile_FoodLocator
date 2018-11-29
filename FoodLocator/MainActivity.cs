@@ -7,6 +7,7 @@ using Xamarin.Facebook.Login.Widget;
 using Xamarin.Facebook;
 using System.Collections.Generic;
 using System;
+using Android.Content;
 
 namespace FoodLocator
 {
@@ -16,10 +17,15 @@ namespace FoodLocator
         private ICallbackManager mFBCallManager;
         private MyProfileTracker mprofileTracker;
         private TextView TxtFirstName;
-        private TextView TxtLastName;
-        private TextView TxtName;
+        //private TextView TxtLastName;
+        //private TextView TxtName;
         private ProfilePictureView mprofile;
         LoginButton BtnFBLogin;
+
+        private ImageView btnBirth;
+        private ImageView btnDating;
+        private ImageView btnBrunch;
+        private ImageView btnGroupMeal;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -35,8 +41,8 @@ namespace FoodLocator
 
             BtnFBLogin = FindViewById<LoginButton>(Resource.Id.fblogin);
             TxtFirstName = FindViewById<TextView>(Resource.Id.TxtFirstname);
-            TxtLastName = FindViewById<TextView>(Resource.Id.TxtLastName);
-            TxtName = FindViewById<TextView>(Resource.Id.TxtName);
+            //TxtLastName = FindViewById<TextView>(Resource.Id.TxtLastName);
+            //TxtName = FindViewById<TextView>(Resource.Id.TxtName);
             mprofile = FindViewById<ProfilePictureView>(Resource.Id.ImgPro);
             BtnFBLogin.SetReadPermissions(new List<string> {
                 "user_friends",
@@ -44,6 +50,17 @@ namespace FoodLocator
             });
             mFBCallManager = CallbackManagerFactory.Create();
             BtnFBLogin.RegisterCallback(mFBCallManager, this);
+
+            btnBirth = FindViewById<ImageView>(Resource.Id.imageView1);
+            btnDating = FindViewById<ImageView>(Resource.Id.imageView2);
+            btnBrunch = FindViewById<ImageView>(Resource.Id.imgView3);
+            btnGroupMeal = FindViewById<ImageView>(Resource.Id.imageView4);
+
+            btnBirth.Click += delegate
+            {
+                var intent = new Intent(this, typeof(BirthdayPlaces));
+                StartActivity(intent);
+            };
         }
 
         public void OnCancel() { }
@@ -55,9 +72,9 @@ namespace FoodLocator
             {
                 try
                 {
-                    TxtFirstName.Text = e.mProfile.FirstName;
-                    TxtLastName.Text = e.mProfile.LastName;
-                    TxtName.Text = e.mProfile.Name;
+                    TxtFirstName.Text = "Welcome " + e.mProfile.FirstName;
+                    //TxtLastName.Text = e.mProfile.LastName;
+                    //TxtName.Text = e.mProfile.Name;
                     mprofile.ProfileId = e.mProfile.Id;
                 }
                 catch (Java.Lang.Exception ex) { }
@@ -65,8 +82,8 @@ namespace FoodLocator
             else
             {
                 TxtFirstName.Text = "First Name";
-                TxtLastName.Text = "Last Name";
-                TxtName.Text = "Name";
+                //TxtLastName.Text = "Last Name";
+                //TxtName.Text = "Name";
                 mprofile.ProfileId = null;
             }
         }
