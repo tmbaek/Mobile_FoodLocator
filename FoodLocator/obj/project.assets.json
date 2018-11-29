@@ -838,11 +838,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\백태민\\Documents\\Lambton\\GitHub\\Mobile_FoodLocator\\FoodLocator\\FoodLocator.csproj",
+      "projectUniqueName": "C:\\Users\\백태민\\Documents\\Lambton\\2018_Fall\\CSD 3184_3_Mobile\\Project\\FoodLocator\\FoodLocator\\FoodLocator.csproj",
       "projectName": "FoodLocator",
-      "projectPath": "C:\\Users\\백태민\\Documents\\Lambton\\GitHub\\Mobile_FoodLocator\\FoodLocator\\FoodLocator.csproj",
+      "projectPath": "C:\\Users\\백태민\\Documents\\Lambton\\2018_Fall\\CSD 3184_3_Mobile\\Project\\FoodLocator\\FoodLocator\\FoodLocator.csproj",
       "packagesPath": "C:\\Users\\백태민\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\백태민\\Documents\\Lambton\\GitHub\\Mobile_FoodLocator\\FoodLocator\\obj\\",
+      "outputPath": "C:\\Users\\백태민\\Documents\\Lambton\\2018_Fall\\CSD 3184_3_Mobile\\Project\\FoodLocator\\FoodLocator\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
