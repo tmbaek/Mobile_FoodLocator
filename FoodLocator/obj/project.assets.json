@@ -833,20 +833,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\백태민\\.nuget\\packages\\": {}
+    "C:\\Users\\IvanE\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\백태민\\Documents\\Lambton\\2018_Fall\\CSD 3184_3_Mobile\\Project\\FoodLocator\\FoodLocator\\FoodLocator.csproj",
+      "projectUniqueName": "C:\\Users\\IvanE\\Documents\\GitHub\\Mobile_FoodLocator\\FoodLocator\\FoodLocator.csproj",
       "projectName": "FoodLocator",
-      "projectPath": "C:\\Users\\백태민\\Documents\\Lambton\\2018_Fall\\CSD 3184_3_Mobile\\Project\\FoodLocator\\FoodLocator\\FoodLocator.csproj",
-      "packagesPath": "C:\\Users\\백태민\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\백태민\\Documents\\Lambton\\2018_Fall\\CSD 3184_3_Mobile\\Project\\FoodLocator\\FoodLocator\\obj\\",
+      "projectPath": "C:\\Users\\IvanE\\Documents\\GitHub\\Mobile_FoodLocator\\FoodLocator\\FoodLocator.csproj",
+      "packagesPath": "C:\\Users\\IvanE\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IvanE\\Documents\\GitHub\\Mobile_FoodLocator\\FoodLocator\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\백태민\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\IvanE\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
