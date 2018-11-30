@@ -28,11 +28,11 @@
 		android:textAppearance="?android:attr/textAppearanceMedium"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:id="@+id/TxtFirstname"
 		android:layout_centerHorizontal="true"
 		android:layout_gravity="center_horizontal"
 		android:layout_marginTop="10dp"
-		android:textSize="25" />
+		android:textSize="25dp"
+		android:id="@+id/TxtFirstname" />
 	<LinearLayout
 		android:orientation="vertical"
 		android:layout_width="match_parent"
@@ -46,20 +46,18 @@
 				android:layout_height="wrap_content"
 				android:layout_marginTop="20dp"
 				android:layout_marginLeft="20dp"
-				android:layout_marginRight="0.0dp"
-				android:id="@+id/textView1"
 				android:gravity="center"
-				android:textSize="20" />
+				android:textSize="20dp"
+				android:id="@+id/textView1" />
 			<TextView
 				android:text="For Brunch"
 				android:layout_width="150.0dp"
 				android:layout_height="wrap_content"
 				android:layout_marginTop="40dp"
-				android:layout_marginLeft="47dp"
-				android:layout_marginRight="0.0dp"
-				android:id="@+id/textView1"
+				android:layout_marginLeft="20dp"
 				android:gravity="center"
-				android:textSize="20" />
+				android:textSize="20dp"
+				android:id="@+id/textView2" />
 		</LinearLayout>
 		<RelativeLayout
 			android:layout_width="match_parent"
@@ -71,11 +69,8 @@
 				android:src="@drawable/Special_Occasion"
 				android:layout_width="150dp"
 				android:layout_height="150dp"
-				android:scaleType="centerCrop"
-				android:id="@+id/imageView1"
-				android:textAlignment="center"
-				android:textDirection="rtl"
-				android:contextClickable="true" />
+				android:scaleType="centerCrop" 
+				android:id="@+id/imageView1"/>
 			<ImageView
 				android:src="@drawable/brunch"
 				android:layout_alignParentRight="true"
@@ -84,57 +79,53 @@
 				android:scaleType="centerCrop"
 				android:id="@+id/imageView2" />
 		</RelativeLayout>
-	</RelativeLayout>
+	</LinearLayout>
 	<LinearLayout
+		android:orientation="vertical"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content">
-		<TextView
-			android:text="Romantic"
-			android:layout_width="150dp"
-			android:layout_height="wrap_content"
-			android:layout_marginTop="20dp"
+	    <LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<TextView
+				android:text="Romantic"
+				android:layout_width="150dp"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="20dp"
+				android:layout_marginLeft="20dp"
+				android:id="@+id/textView3"
+				android:gravity="center"
+				android:textSize="20dp" />
+			<TextView
+				android:text="For Groups"
+				android:layout_width="150.0dp"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="20dp"
+				android:layout_marginLeft="20dp"
+				android:gravity="center"
+				android:textSize="20dp"
+				android:id="@+id/textView4" />
+		</LinearLayout>
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="200.0dp"
+			android:layout_marginTop="10dp"
 			android:layout_marginLeft="20dp"
-			android:layout_marginRight="0.0dp"
-			android:id="@+id/textView1"
-			android:gravity="center"
-			android:textSize="20" />
-		<TextView
-			android:text="For Groups"
-			android:layout_width="150.0dp"
-			android:layout_height="wrap_content"
-			android:layout_marginTop="20dp"
-			android:layout_marginLeft="47dp"
-			android:layout_marginRight="0.0dp"
-			android:id="@+id/textView1"
-			android:gravity="center"
-			android:textSize="20" />
-	</LinearLayout>
-	<RelativeLayout
-		android:minWidth="25px"
-		android:minHeight="25px"
-		android:layout_width="match_parent"
-		android:layout_height="200.0dp"
-		android:layout_marginTop="10dp"
-		android:layout_marginLeft="20dp"
-		android:layout_marginRight="20dp"
-		android:id="@+id/relativeLayout1"
-		<ImageView
-			android:src="@drawable/romantic"
-			android:layout_width="150dp"
-			android:layout_height="150dp"
-			android:scaleType="centerCrop"
-			android:id="@+id/imageView1"
-			android:textAlignment="center"
-			android:textDirection="rtl"
-			android:contextClickable="true" />
-		<ImageView
-			android:src="@drawable/groups"
-			android:layout_alignParentRight="true"
-			android:layout_width="150dp"
-			android:layout_height="150dp"
-			android:scaleType="centerCrop"
-			android:id="@+id/imageView2" />
-	</RelativeLayout>
+			android:layout_marginRight="20dp">
+			<ImageView
+				android:src="@drawable/home_img"
+				android:layout_width="150dp"
+				android:layout_height="150dp"
+				android:scaleType="centerCrop"
+				android:id="@+id/imageView3" />
+			<ImageView
+				android:src="@drawable/groups"
+				android:layout_alignParentRight="true"
+				android:layout_width="150dp"
+				android:layout_height="150dp"
+				android:scaleType="centerCrop"
+				android:id="@+id/imageView4" />
+		</RelativeLayout>
 
 	</LinearLayout>
 

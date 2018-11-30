@@ -1,42 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">	
+	<ImageButton
+		android:src="@android:drawable/ic_menu_gallery"
+		android:layout_width="110.0dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/imageButton1"
+		android:layout_marginRight="16.0dp" />
+	
+	<TextView
+		android:text="Restaurant Name"
+		android:layout_toRightOf="@id/imageButton1"
+		android:layout_width="110.5dp"
+		android:layout_height="80dp"
+		android:id="@+id/textView1"
+		android:layout_marginRight="19.0dp"
+		android:elegantTextHeight="false"
+		android:background="#ff81d4fa"
+		android:gravity="center_vertical"
+		android:includeFontPadding="false" />
 	<LinearLayout
-		android:orientation="horizontal"
-		android:minWidth="25px"
-		android:minHeight="25px"
+		android:orientation="vertical"
+		android:layout_toRightOf="@+id/textView1"
 		android:layout_width="match_parent"
-		android:layout_height="80.0dp"
+		android:layout_height="80dp"
 		android:id="@+id/linearLayout1">
-		<ImageButton
-			android:src="@android:drawable/ic_menu_gallery"
-			android:layout_width="111.0dp"
-			android:layout_height="match_parent"
-			android:id="@+id/imageButton1"
-			android:layout_marginRight="16.0dp" />
 		<TextView
-			android:text="Restaurant Name"
-			android:layout_width="110.5dp"
-			android:layout_height="match_parent"
-			android:id="@+id/textView1"
-			android:layout_marginRight="19.0dp"
-			android:elegantTextHeight="false"
-			android:background="#ff81d4fa"
-			android:gravity="center_vertical"
-			android:includeFontPadding="false" />
-		<TextView
-			android:text="Reviews *****"
+			android:text="Reviews"
 			android:textAppearance="?android:attr/textAppearanceSmall"
 			android:layout_width="117.5dp"
-			android:layout_height="match_parent"
+			android:layout_height="30dp"
 			android:id="@+id/textView2"
 			android:gravity="top|center_vertical|center_horizontal"
 			android:linksClickable="false"
 			android:autoSizeTextType="uniform"
 			android:layout_gravity="left"
 			android:includeFontPadding="true" />
-	</LinearLayout>
+		<TextView
+			android:text="*****"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="117.5dp"
+			android:layout_height="50dp"
+			android:id="@+id/textView3"
+			android:gravity="top|center_vertical|center_horizontal"
+			android:linksClickable="false"
+			android:autoSizeTextType="uniform"
+			android:layout_gravity="left"
+			android:includeFontPadding="true" />
 
-</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

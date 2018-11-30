@@ -30,4 +30,9 @@
 -keepnames class com.facebook.FacebookActivity
 -keepnames class com.facebook.CustomTabActivity
 
--keep class com.facebook.login.Login
+-keep class com.facebook.core.Core
+
+-keep public class com.android.vending.billing.IInAppBillingService {
+    public static com.android.vending.billing.IInAppBillingService asInterface(android.os.IBinder);
+    public android.os.Bundle getSkuDetails(int, java.lang.String, java.lang.String, android.os.Bundle);
+}
