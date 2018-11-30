@@ -113,6 +113,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",
+		"Xamarin.Android.Glide.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",
 		"Xamarin.Android.Support.Compat.dll",

@@ -57,6 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BirthdayPlaces.cs" />
+    <Compile Include="ListPlace.cs" />
+    <Compile Include="ListPlaceActivity.cs" />
+    <Compile Include="ListPlaceAdapter.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -93,6 +96,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Xamarin.Android.Glide">
+      <Version>4.0.0</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Annotations">
       <Version>27.0.2.1</Version>
     </PackageReference>
@@ -117,10 +123,12 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\home_img.jpg" />
+    <AndroidResource Include="Resources\layout\layout1.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\layout1.axml">
+    <AndroidResource Include="Resources\layout\listplace.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -130,19 +138,19 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\special_occasion_2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\romantic.jpg" />
+    <AndroidResource Include="Resources\drawable\brunch.jpg" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\groups.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\brunch.jpg" />
+    <AndroidResource Include="Resources\drawable\Special_Occasion.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Special_Occasion.jpg" />
+    <AndroidResource Include="Resources\drawable\home_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\romantic.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

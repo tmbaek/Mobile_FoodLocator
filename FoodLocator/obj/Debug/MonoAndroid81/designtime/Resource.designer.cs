@@ -2431,6 +2431,9 @@ namespace FoodLocator
 			// aapt resource value: 0x7F090055
 			public const int avd_show_password = 2131296341;
 			
+			// aapt resource value: 0x7F010002
+			public const int brunch = 2130771970;
+			
 			// aapt resource value: 0x7F090054
 			public const int com_facebook_auth_dialog_background = 2131296340;
 			
@@ -2533,8 +2536,11 @@ namespace FoodLocator
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F010002
-			public const int home_img = 2130771970;
+			// aapt resource value: 0x7F010003
+			public const int groups = 2130771971;
+			
+			// aapt resource value: 0x7F010004
+			public const int home_img = 2130771972;
 			
 			// aapt resource value: 0x7F090001
 			public const int messenger_bubble_large_blue = 2131296257;
@@ -2601,6 +2607,12 @@ namespace FoodLocator
 			
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
+			
+			// aapt resource value: 0x7F010005
+			public const int romantic = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int Special_Occasion = 2130771974;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -2840,20 +2852,23 @@ namespace FoodLocator
 			// aapt resource value: 0x7F0C0038
 			public const int image = 2131492920;
 			
-			// aapt resource value: 0x7F020005
-			public const int imageView1 = 2130837509;
+			// aapt resource value: 0x7F020014
+			public const int imageButton1 = 2130837524;
 			
-			// aapt resource value: 0x7F020006
-			public const int imageView2 = 2130837510;
+			// aapt resource value: 0x7F020007
+			public const int imageView1 = 2130837511;
 			
 			// aapt resource value: 0x7F020008
-			public const int imageView4 = 2130837512;
+			public const int imageView2 = 2130837512;
+			
+			// aapt resource value: 0x7F020011
+			public const int imageView3 = 2130837521;
+			
+			// aapt resource value: 0x7F020012
+			public const int imageView4 = 2130837522;
 			
 			// aapt resource value: 0x7F020002
 			public const int ImgPro = 2130837506;
-			
-			// aapt resource value: 0x7F020007
-			public const int imgView3 = 2130837511;
 			
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
@@ -2882,8 +2897,14 @@ namespace FoodLocator
 			// aapt resource value: 0x7F0C000F
 			public const int line3 = 2131492879;
 			
+			// aapt resource value: 0x7F020013
+			public const int linearLayout1 = 2130837523;
+			
 			// aapt resource value: 0x7F0C0040
 			public const int listMode = 2131492928;
+			
+			// aapt resource value: 0x7F020015
+			public const int listView1 = 2130837525;
 			
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
@@ -2944,6 +2965,9 @@ namespace FoodLocator
 			
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
+			
+			// aapt resource value: 0x7F020016
+			public const int progressBar1 = 2130837526;
 			
 			// aapt resource value: 0x7F0C0049
 			public const int progress_bar = 2131492937;
@@ -3092,8 +3116,17 @@ namespace FoodLocator
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
+			// aapt resource value: 0x7F020005
+			public const int textView1 = 2130837509;
+			
+			// aapt resource value: 0x7F020006
+			public const int textView2 = 2130837510;
+			
 			// aapt resource value: 0x7F020009
-			public const int textView1 = 2130837513;
+			public const int textView3 = 2130837513;
+			
+			// aapt resource value: 0x7F020010
+			public const int textView4 = 2130837520;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
@@ -3352,6 +3385,9 @@ namespace FoodLocator
 			// aapt resource value: 0x7F030003
 			public const int layout1 = 2130903043;
 			
+			// aapt resource value: 0x7F030004
+			public const int listplace = 2130903044;
+			
 			// aapt resource value: 0x7F0F0001
 			public const int messenger_button_send_blue_large = 2131689473;
 			
@@ -3414,6 +3450,9 @@ namespace FoodLocator
 			
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
+			
+			// aapt resource value: 0x7F030005
+			public const int restaurantsList = 2130903045;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;

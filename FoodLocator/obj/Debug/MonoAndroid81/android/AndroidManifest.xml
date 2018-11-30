@@ -6,6 +6,7 @@
   <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true">
     <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id" />
     <activity android:label="BirthdayPlaces" android:name="md5a4734618bc4a81f5e454c130f97d4e57.BirthdayPlaces" />
+    <activity android:label="ListPlaceActivity" android:name="md5a4734618bc4a81f5e454c130f97d4e57.ListPlaceActivity" />
     <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="md5a4734618bc4a81f5e454c130f97d4e57.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

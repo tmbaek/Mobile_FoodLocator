@@ -53,12 +53,12 @@ namespace FoodLocator
 
             btnBirth = FindViewById<ImageView>(Resource.Id.imageView1);
             btnDating = FindViewById<ImageView>(Resource.Id.imageView2);
-            btnBrunch = FindViewById<ImageView>(Resource.Id.imgView3);
+            btnBrunch = FindViewById<ImageView>(Resource.Id.imageView3);
             btnGroupMeal = FindViewById<ImageView>(Resource.Id.imageView4);
 
             btnBirth.Click += delegate
             {
-                var intent = new Intent(this, typeof(BirthdayPlaces));
+                var intent = new Intent(this, typeof(ListPlaceActivity));
                 StartActivity(intent);
             };
         }

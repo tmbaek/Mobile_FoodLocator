@@ -60,6 +60,19 @@
           "build/MonoAndroid80/Xamarin.Android.Arch.Lifecycle.Runtime.targets": {}
         }
       },
+      "Xamarin.Android.Glide/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Annotations": "25.4.0.2",
+          "Xamarin.Android.Support.v4": "25.4.0.2"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Glide.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Glide.dll": {}
+        }
+      },
       "Xamarin.Android.Support.Animated.Vector.Drawable/27.0.2.1": {
         "type": "package",
         "dependencies": {
@@ -237,7 +250,7 @@
           "lib/MonoAndroid81/Xamarin.Android.Support.v4.dll": {}
         },
         "build": {
-          "build/MonoAndroid81/_._": {}
+          "build/MonoAndroid81/Xamarin.Android.Support.v4.targets": {}
         }
       },
       "Xamarin.Android.Support.v7.AppCompat/27.0.2.1": {
@@ -507,6 +520,17 @@
         "proguard/proguard.txt",
         "xamarin.android.arch.lifecycle.runtime.1.0.3.1.nupkg.sha512",
         "xamarin.android.arch.lifecycle.runtime.nuspec"
+      ]
+    },
+    "Xamarin.Android.Glide/4.0.0": {
+      "sha512": "lar+bM1SWOeyF7Th6b9MnTUYHxozbksMiwtRozGp7jQp6hhJVSaoe6dqYXAMeIBeuP0gCSvPb9LrNfTI+du28Q==",
+      "type": "package",
+      "path": "xamarin.android.glide/4.0.0",
+      "files": [
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/MonoAndroid70/Xamarin.Android.Glide.dll",
+        "xamarin.android.glide.4.0.0.nupkg.sha512",
+        "xamarin.android.glide.nuspec"
       ]
     },
     "Xamarin.Android.Support.Animated.Vector.Drawable/27.0.2.1": {
@@ -822,6 +846,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "Xamarin.Android.Glide >= 4.0.0",
       "Xamarin.Android.Support.Annotations >= 27.0.2.1",
       "Xamarin.Android.Support.Compat >= 27.0.2.1",
       "Xamarin.Android.Support.Core.UI >= 27.0.2.1",
@@ -833,20 +858,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\IvanE\\.nuget\\packages\\": {}
+    "C:\\Users\\백태민\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IvanE\\Documents\\GitHub\\Mobile_FoodLocator\\FoodLocator\\FoodLocator.csproj",
+      "projectUniqueName": "C:\\Users\\백태민\\Documents\\Lambton\\2018_Fall\\CSD 3184_3_Mobile\\Project\\FoodLocator\\FoodLocator\\FoodLocator.csproj",
       "projectName": "FoodLocator",
-      "projectPath": "C:\\Users\\IvanE\\Documents\\GitHub\\Mobile_FoodLocator\\FoodLocator\\FoodLocator.csproj",
-      "packagesPath": "C:\\Users\\IvanE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IvanE\\Documents\\GitHub\\Mobile_FoodLocator\\FoodLocator\\obj\\",
+      "projectPath": "C:\\Users\\백태민\\Documents\\Lambton\\2018_Fall\\CSD 3184_3_Mobile\\Project\\FoodLocator\\FoodLocator\\FoodLocator.csproj",
+      "packagesPath": "C:\\Users\\백태민\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\백태민\\Documents\\Lambton\\2018_Fall\\CSD 3184_3_Mobile\\Project\\FoodLocator\\FoodLocator\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\IvanE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\백태민\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -865,6 +890,10 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
+          "Xamarin.Android.Glide": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
           "Xamarin.Android.Support.Annotations": {
             "target": "Package",
             "version": "[27.0.2.1, )"
