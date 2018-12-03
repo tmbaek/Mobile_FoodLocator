@@ -18,6 +18,7 @@ namespace FoodLocator
         ListView mylist;
         ProgressBar progressBar;
         ListPlaceAdapter myadapter;
+        MongoDBService mdb;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -34,17 +35,21 @@ namespace FoodLocator
         private List<ListPlace> GenerateListData()
         {
             List<ListPlace> data = new List<ListPlace>();
-            for (int i = 0; i < 5; i++)
-            {
-
+            mdb = new MongoDBService();
+            List<mdbplaces> mdbdata = mdb.GetMongoData();
+            int i = 0;
+            foreach (var place in mdbdata)
+            {                
                 ListPlace obj = new ListPlace();
                 obj.Id = i;
-                obj.PlaceName = "Title" + i;
-                obj.ReviewMark = "***";                
-                obj.Image = "https://picsum.photos/200/200/?" + i;
+                obj.PlaceName = place.placename;
+                obj.ReviewMark = place.mark;
+                obj.Image = place.imageURL;
                 //db.InsertItem(obj);
                 data.Add(obj);
+                i++;
             }
+            
             return data;
         }
 

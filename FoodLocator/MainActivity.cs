@@ -59,6 +59,7 @@ namespace FoodLocator
             btnBirth.Click += delegate
             {
                 var intent = new Intent(this, typeof(ListPlaceActivity));
+                //var intent = new Intent(this, typeof(DatafromMongo));
                 StartActivity(intent);
             };
         }
