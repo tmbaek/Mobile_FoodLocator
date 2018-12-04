@@ -11,9 +11,9 @@
 		android:layout_height="80.0dp"
 		android:id="@+id/linearLayout1">
 		<ImageButton
-			android:src="@android:drawable/ic_menu_gallery"
-			android:layout_width="111.0dp"
-			android:layout_height="match_parent"
+			android:src="@drawable/groups"
+			android:layout_width="110.0dp"
+			android:layout_height="80dp"
 			android:id="@+id/imageButton1"
 			android:layout_marginRight="16.0dp" />
 		<TextView

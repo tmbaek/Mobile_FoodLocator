@@ -42,6 +42,10 @@ C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLoc
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\Xamarin.Facebook.Messenger.Android.dll
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\Xamarin.Facebook.Places.Android.dll
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\Xamarin.Facebook.Share.Android.dll
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\Xamarin.GooglePlayServices.Base.dll
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\Xamarin.GooglePlayServices.Maps.dll
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\Xamarin.GooglePlayServices.Tasks.dll
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\System.Runtime.dll
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\System.ComponentModel.Composition.dll
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\System.Diagnostics.Debug.dll

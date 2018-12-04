@@ -17,8 +17,8 @@ namespace FoodLocator
     {
         private List<ListPlace> listData;
         private Activity context;
-        private PopupMenu mypopup;
-        private ListPlace clickedItem;
+        //private PopupMenu mypopup;
+        //private ListPlace clickedItem;
         //Database db;
         public ListPlaceAdapter(Activity listActivity, List<ListPlace> listData) : base()
         {
@@ -64,6 +64,14 @@ namespace FoodLocator
 
             ImageView myimage = view.FindViewById<ImageView>(Resource.Id.imageButton1);
             Glide.With(context).Load(item.Image).Into(myimage);
+
+            myimage.Click += delegate
+            {
+                var intent = new Intent(context, typeof(PlaceDetail));
+
+                intent.PutExtra("placename", item.PlaceName);
+                context.StartActivity(intent);
+            };
 
             return view;
         }

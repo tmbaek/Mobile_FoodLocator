@@ -2,6 +2,16 @@ C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLoc
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\bin\Debug\FoodLocator.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\bin\Debug\FoodLocator.FoodLocator.apk
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\bin\Debug\FoodLocator.FoodLocator-Signed.apk
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\FoodLocator.csprojAssemblyReference.cache
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\XbdMerge\Xamarin.GooglePlayServices.Basement.dll.stamp
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\XbdMerge\Xamarin.GooglePlayServices.Tasks.dll.stamp
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\XbdMerge\Xamarin.GooglePlayServices.Base.dll.stamp
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\XbdMerge\Xamarin.GooglePlayServices.Maps.dll.stamp
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\XbdMerge\proguard\dc663e480.txt
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\XbdMerge\dc663e48.proguard.stamp
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\XbdMerge\0757626b.proguard.stamp
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\XbdMerge\2f4d086a.proguard.stamp
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\XbdMerge\ea5c07c4.proguard.stamp
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\res.flag
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\FoodLocator.csproj.CoreCompileInputs.cache
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\FoodLocator.dll
@@ -29,7 +39,6 @@ C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLoc
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\res\mipmap-xxxhdpi\ic_launcher.png
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\res\mipmap-xxxhdpi\ic_launcher_foreground.png
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\res\mipmap-xxxhdpi\ic_launcher_round.png
-C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\res\layout\layout1.xml
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\res\layout\listplace.xml
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\res\layout\restaurantslist.xml
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\res\drawable\brunch.jpg
@@ -37,6 +46,9 @@ C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLoc
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\res\drawable\special_occasion.jpg
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\res\drawable\home_img.jpg
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\res\drawable\romantic.jpg
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\res\layout\placedetail.xml
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\res\layout\addreview.xml
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\res\layout\showmap.xml
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\R.cs.flag
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\R.txt
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\uploadflags.txt
@@ -45,12 +57,12 @@ C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLoc
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\bin\Debug\mscorlib.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\bin\Debug\System.ComponentModel.Composition.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\bin\Debug\System.Core.pdb
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\bin\Debug\System.IO.Compression.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\bin\Debug\System.Net.Http.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\bin\Debug\System.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\bin\Debug\System.Runtime.Serialization.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\bin\Debug\System.ServiceModel.Internals.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\bin\Debug\System.Xml.pdb
-C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\bin\Debug\System.IO.Compression.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\linksrc\FoodLocator.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\linksrc\Mono.Android.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\linksrc\mscorlib.pdb
@@ -63,7 +75,6 @@ C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLoc
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\linksrc\System.Runtime.Serialization.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\linksrc\System.ServiceModel.Internals.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\linksrc\Mono.Security.pdb
-C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\FoodLocator.csprojAssemblyReference.cache
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\FoodLocator.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\Mono.Android.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\Mono.Security.pdb
@@ -76,3 +87,4 @@ C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLoc
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\System.Runtime.Serialization.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\System.ServiceModel.Internals.pdb
 C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\android\assets\System.Xml.pdb
+C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\linksrc\FoodLocator.pdb

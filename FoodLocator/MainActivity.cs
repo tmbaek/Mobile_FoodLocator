@@ -26,6 +26,7 @@ namespace FoodLocator
         private ImageView btnDating;
         private ImageView btnBrunch;
         private ImageView btnGroupMeal;
+        //public string username;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -60,6 +61,7 @@ namespace FoodLocator
             {
                 var intent = new Intent(this, typeof(ListPlaceActivity));
                 //var intent = new Intent(this, typeof(DatafromMongo));
+                //intent.PutExtra("userid", username);
                 StartActivity(intent);
             };
         }
@@ -76,15 +78,17 @@ namespace FoodLocator
                     TxtFirstName.Text = "Welcome " + e.mProfile.FirstName;
                     //TxtLastName.Text = e.mProfile.LastName;
                     //TxtName.Text = e.mProfile.Name;
+                    //username = e.mProfile.Name;
                     mprofile.ProfileId = e.mProfile.Id;
                 }
                 catch (Java.Lang.Exception ex) { }
             }
             else
             {
-                TxtFirstName.Text = "First Name";
+                TxtFirstName.Text = "Welcome";
                 //TxtLastName.Text = "Last Name";
                 //TxtName.Text = "Name";
+                //username = "Unknown";
                 mprofile.ProfileId = null;
             }
         }

@@ -19,6 +19,7 @@ namespace FoodLocator
         ProgressBar progressBar;
         ListPlaceAdapter myadapter;
         MongoDBService mdb;
+       
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -28,8 +29,8 @@ namespace FoodLocator
             SetContentView(Resource.Layout.listplace);
             mylist = FindViewById<ListView>(Resource.Id.listView1);
             progressBar = FindViewById<ProgressBar>(Resource.Id.progressBar1);
+ 
             showData();
-
         }
 
         private List<ListPlace> GenerateListData()

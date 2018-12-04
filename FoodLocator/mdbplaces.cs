@@ -20,5 +20,8 @@ namespace FoodLocator
         public string placename { get; set; }
         public string mark { get; set; }
         public string imageURL { get; set; }
+        public string phone { get; set; }
+        public string address { get; set; }
+        public string menus { get; set; }
     }
 }

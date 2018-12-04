@@ -30,6 +30,10 @@
     <Jar>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\33\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\34\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\35\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\36\jl\classes.jar</Jar>
+    <Jar>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\37\jl\classes.jar</Jar>
+    <Jar>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\38\jl\classes.jar</Jar>
+    <Jar>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\39\jl\classes.jar</Jar>
     <Jar>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\9\jl\arch-core-common.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
@@ -46,6 +50,9 @@
     <ResolvedResourceDirectory>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\32\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\33\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\35\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\36\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\37\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\38\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\\Debug\MonoAndroid81\lp\0\jl\assets</ResolvedAssetDirectory>
@@ -66,5 +73,8 @@
     <ResolvedResourceDirectoryStamp>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\32.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\33.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\35.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\36.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\37.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\백태민\Documents\Lambton\2018_Fall\CSD 3184_3_Mobile\Project\FoodLocator\FoodLocator\obj\Debug\MonoAndroid81\lp\38.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

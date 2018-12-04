@@ -30,4 +30,4 @@
 -keepnames class com.facebook.FacebookActivity
 -keepnames class com.facebook.CustomTabActivity
 
--keep class com.facebook.share.Share
+-keep class com.facebook.common.Common

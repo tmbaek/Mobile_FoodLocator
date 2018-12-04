@@ -109,7 +109,12 @@ class MonoPackageManager_Resources {
 		"FoodLocator.dll",
 		"Bolts.AppLinks.dll",
 		"Bolts.Tasks.dll",
+		"DnsClient.dll",
 		"Google.ZXing.Core.dll",
+		"MongoDB.Bson.dll",
+		"MongoDB.Driver.Core.dll",
+		"MongoDB.Driver.dll",
+		"System.Buffers.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",
@@ -137,6 +142,10 @@ class MonoPackageManager_Resources {
 		"Xamarin.Facebook.Messenger.Android.dll",
 		"Xamarin.Facebook.Places.Android.dll",
 		"Xamarin.Facebook.Share.Android.dll",
+		"Xamarin.GooglePlayServices.Base.dll",
+		"Xamarin.GooglePlayServices.Basement.dll",
+		"Xamarin.GooglePlayServices.Maps.dll",
+		"Xamarin.GooglePlayServices.Tasks.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

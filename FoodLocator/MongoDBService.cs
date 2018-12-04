@@ -32,24 +32,31 @@ namespace FoodLocator
             return list;
         }
 
-        public void InsertMongoData()
+        public List<mdbplaces> GetPlaceDetails(string Placename)
         {
 
             string connectionString = "mongodb+srv://tmbaek:etech1234@cluster0-frtj2.mongodb.net/test?retryWrites=true";
             client = new MongoClient(connectionString);
             IMongoDatabase db = client.GetDatabase("BestPlace");
 
-            var collection = db.GetCollection<BsonDocument>("places");
-            // Insert document
-            BsonDocument place = new BsonDocument
-            {
-                {"placename", "Ivan's Bruito House"},
-                {"mark", "*****"}
-            };
+            IMongoCollection<mdbplaces> collection = db.GetCollection<mdbplaces>("places");
+            var filter = new BsonDocument("placename", Placename);
+            List<mdbplaces> list = collection.Find(filter)
+                .ToList();
+            //.FirstOrDefault();
 
+            return list;
+        }
+
+        public void InsertMongoData(string DBname, string Collectionname, BsonDocument place)
+        {
+
+            string connectionString = "mongodb+srv://tmbaek:etech1234@cluster0-frtj2.mongodb.net/test?retryWrites=true";
+            client = new MongoClient(connectionString);
+            IMongoDatabase db = client.GetDatabase(DBname);
+
+            var collection = db.GetCollection<BsonDocument>(Collectionname);
             collection.InsertOne(place);
-
-
         }
     }
 
