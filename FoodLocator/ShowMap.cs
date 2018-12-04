@@ -31,11 +31,11 @@ namespace FoodLocator
 
         public void OnMapReady(GoogleMap googleMap)
         {
-            LatLng location = new LatLng(37, 130);
+            LatLng location = new LatLng(43.7770931, -79.41465568);
             MarkerOptions markerOptions = new MarkerOptions();
             //markerOptions.SetPosition(new LatLng(30, 120));
             markerOptions.SetPosition(location);
-            markerOptions.SetTitle("Seoul, Korea");
+            markerOptions.SetTitle("Ivan's Burrito House");
             googleMap.AddMarker(markerOptions);
 
             googleMap.MapType = GoogleMap.MapTypeHybrid;

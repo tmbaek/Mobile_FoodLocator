@@ -53,15 +53,36 @@ namespace FoodLocator
             BtnFBLogin.RegisterCallback(mFBCallManager, this);
 
             btnBirth = FindViewById<ImageView>(Resource.Id.imageView1);
-            btnDating = FindViewById<ImageView>(Resource.Id.imageView2);
-            btnBrunch = FindViewById<ImageView>(Resource.Id.imageView3);
+            btnBrunch = FindViewById<ImageView>(Resource.Id.imageView2);
+            btnDating = FindViewById<ImageView>(Resource.Id.imageView3);            
             btnGroupMeal = FindViewById<ImageView>(Resource.Id.imageView4);
 
             btnBirth.Click += delegate
             {
                 var intent = new Intent(this, typeof(ListPlaceActivity));
                 //var intent = new Intent(this, typeof(DatafromMongo));
-                //intent.PutExtra("userid", username);
+                intent.PutExtra("collection", "places");
+                StartActivity(intent);
+            };
+            btnDating.Click += delegate
+            {
+                var intent = new Intent(this, typeof(ListPlaceActivity));
+                //var intent = new Intent(this, typeof(DatafromMongo));
+                intent.PutExtra("collection", "romantic");
+                StartActivity(intent);
+            };
+            btnBrunch.Click += delegate
+            {
+                var intent = new Intent(this, typeof(ListPlaceActivity));
+                //var intent = new Intent(this, typeof(DatafromMongo));
+                intent.PutExtra("collection", "brunch");
+                StartActivity(intent);
+            };
+            btnGroupMeal.Click += delegate
+            {
+                var intent = new Intent(this, typeof(ListPlaceActivity));
+                //var intent = new Intent(this, typeof(DatafromMongo));
+                intent.PutExtra("collection", "groupmeal");
                 StartActivity(intent);
             };
         }

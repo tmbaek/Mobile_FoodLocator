@@ -19,7 +19,7 @@ namespace FoodLocator
         ProgressBar progressBar;
         ListPlaceAdapter myadapter;
         MongoDBService mdb;
-       
+        string collection_name;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -36,8 +36,9 @@ namespace FoodLocator
         private List<ListPlace> GenerateListData()
         {
             List<ListPlace> data = new List<ListPlace>();
+            collection_name = Intent.GetStringExtra("collection");
             mdb = new MongoDBService();
-            List<mdbplaces> mdbdata = mdb.GetMongoData();
+            List<mdbplaces> mdbdata = mdb.GetMongoData(collection_name);
             int i = 0;
             foreach (var place in mdbdata)
             {                

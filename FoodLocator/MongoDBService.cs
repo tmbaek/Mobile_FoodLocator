@@ -17,14 +17,16 @@ namespace FoodLocator
     class MongoDBService
     {
         MongoClient client;
-        public List<mdbplaces> GetMongoData()
+
+        public List<mdbplaces> GetMongoData(string collection_name)
         {
 
             string connectionString = "mongodb+srv://tmbaek:etech1234@cluster0-frtj2.mongodb.net/test?retryWrites=true";
             client = new MongoClient(connectionString);
             IMongoDatabase db = client.GetDatabase("BestPlace");
 
-            IMongoCollection<mdbplaces> collection = db.GetCollection<mdbplaces>("places");
+            //IMongoCollection<mdbplaces> collection = db.GetCollection<mdbplaces>("places");
+            IMongoCollection<mdbplaces> collection = db.GetCollection<mdbplaces>(collection_name);
             //string filter = "FilterDefinition<BsonDocument>.Empty";
             List<mdbplaces> list = collection.Find(FilterDefinition<mdbplaces>.Empty)
                 .ToList();
